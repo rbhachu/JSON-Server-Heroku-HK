@@ -51,7 +51,9 @@ npm update
 npm start
 ```
 
-<p>After a few seconds, your browser should automatically open to the following link; http://localhost:8000 and display the following `Success` message in the browser page.</p>
+<p>After a few seconds, your browser should automatically open to the following link; 
+
+[http://localhost:8000](http://localhost:8000) and display the following `Success` message in the browser page too.</p>
 
 ![Site Preview](./imgs-readme/site-preview.png)
 <br><br>
