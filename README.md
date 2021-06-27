@@ -34,7 +34,7 @@ The cleanup.js file simply runs a function to overwrite the db.json file in the 
 
 ![Files](./imgs-readme/db-files.png)
 
-*db-source.json file*
+*db-source.json file*<br>
 ![File source](./imgs-readme/db-file.png)
 
 The script (cleanup.js) can then be called potentially in your hosting platform via a scheduled task using the same command method as stated above.</p>
