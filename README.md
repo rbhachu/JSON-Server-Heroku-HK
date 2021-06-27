@@ -6,7 +6,7 @@
 
 
 ## Description
-<p>Updated version of JSON Server (https://github.com/rbhachu/JSON-Server-Heroku) with House Keeping feature added to ensure db.json file is reset every night using Heroku Scheduler Plugin.
+<p>Updated version of JSON Server (https://github.com/rbhachu/JSON-Server-Heroku) with House Keeping feature added to ensure db.json file is reset daily using Heroku Scheduler Plugin.
 </p><br>
 
 
@@ -17,6 +17,28 @@
 * Installed automatically<br>
 </i>
 <br><br>
+
+## Usage
+<p>Once the app is installed (see Installation instructions below), you can reset the db.json file in './data/' root folder by executing the following command in the terminal.</p>
+
+```sh
+node ./bin/cleanup.js
+```
+
+<p>
+This will run the cleanup.js file located in the './bin/' folder in the root of the site.<br><br>
+The cleanup.js file simply runs a function to overwrite the db.json file in the data folder with the original values set in the db-source.json file.
+<br><br>
+This function can then be called potentially in your hosting platform via a scheduled task using the same command method as stated above.<p>
+
+<p><i>
+<b>NOTE:</b> After testing the script in Heroku, although the script executes successfully, the db.json does not update to the original values set in the db-source.json file.
+<br>
+However, I do have another tested and working solution I have managed to establish after many hours of research, link below.
+
+[How to schedule when a Dyno should restart in Heroku for your App](http://)
+</i></p>
+<br>
 
 
 ---
