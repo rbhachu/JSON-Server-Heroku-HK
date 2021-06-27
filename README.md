@@ -1,18 +1,18 @@
-[![Build Status](https://travis-ci.org/gelstudios/gitfiti.svg?branch=master)](https://github.com/rbhachu/JSON-Server-Heroku) [![Heroku](https://heroku-badge.herokuapp.com/?app=rbhachu-json-server-heroku)](https://github.com/rbhachu/JSON-Server-Heroku)
+[![Build Status](https://travis-ci.org/gelstudios/gitfiti.svg?branch=master)](https://github.com/rbhachu/JSON-Server-Heroku-HK) [![Heroku](https://heroku-badge.herokuapp.com/?app=rbhachu-json-server-heroku-hk)](https://github.com/rbhachu/JSON-Server-Heroku-HK)
 
 
-<h1 align="center">JSON Server (Back-End API REST Server for The Mojo Blog)</h1>
+<h1 align="center">JSON Server + House Keeping<br>(Back-End API REST Server for The Mojo Blog)</h1>
 <br>
 
 
 ## Description
-<p>Back-End REST API Server for The Mojo Blog Front-End Client, running JSON server.<br><br>
-Requires The Mojo Blog Front-End Client, please see repo for full details; https://github.com/rbhachu/the-mojo-blog
+<p>Updated version of JSON Server (https://github.com/rbhachu/JSON-Server-Heroku) with House Keeping feature added to ensure db.json file is reset every night using Heroku Scheduler Plugin.
 </p><br>
 
 
 ## Dependencies/NPM Modules
 [JSON Server v0.16.3 *](https://www.npmjs.com/package/json-server) - Creates a JSON REST API Server
+[Nodemon v2.0.7 *](https://www.npmjs.com/package/nodemon) - Automatically restarts node application when file changes detected
 <i>
 * Installed automatically<br>
 </i>
@@ -25,7 +25,7 @@ Requires The Mojo Blog Front-End Client, please see repo for full details; https
 <p>Open your Code Editor and 'CD' into your working directory, then download the repo to that location, by executing the following command in your terminal.<p>
 
 ```sh
-git clone https://github.com/rbhachu/JSON-Server-Heroku.git
+git clone https://github.com/rbhachu/JSON-Server-Heroku-HK.git
 ```
 
 <p>Once the repo has been downloaded, 'CD' to the newly downloaded project folder. Then execute the following command in your terminal.<p>
