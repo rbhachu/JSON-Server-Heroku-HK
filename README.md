@@ -11,7 +11,7 @@
 
 
 ## Dependencies/NPM Modules
-[JSON Server v0.16.3 *](https://www.npmjs.com/package/json-server) - Creates a JSON REST API Server
+[JSON Server v0.16.3 *](https://www.npmjs.com/package/json-server) - Creates a JSON REST API Server<br>
 [Nodemon v2.0.7 *](https://www.npmjs.com/package/nodemon) - Automatically restarts node application when file changes detected
 <i>
 * Installed automatically<br>
