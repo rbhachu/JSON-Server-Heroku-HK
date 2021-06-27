@@ -17,4 +17,4 @@ const copyFile = (file, dir2)=>{
 
 //example, copy file1.htm from 'test/dir_1/' to 'test/'
 //copyFile('./data1/db.json', './data/');
-copyFile('./data/db1.json', './data/');
+copyFile('./data/db-source.json', './data/');
