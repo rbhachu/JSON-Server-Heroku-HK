@@ -12,31 +12,40 @@
 
 ## Dependencies/NPM Modules
 [JSON Server v0.16.3 *](https://www.npmjs.com/package/json-server) - Creates a JSON REST API Server<br>
-[Nodemon v2.0.7 *](https://www.npmjs.com/package/nodemon) - Automatically restarts node application when file changes detected
-<i>
-* Installed automatically<br>
-</i>
-<br><br>
+[Nodemon v2.0.7 *](https://www.npmjs.com/package/nodemon) - Automatically restarts node application when file changes detected<br>
+<i> * Installed automatically</i>
+<br>
+<br>
+
 
 ## Usage
-<p>Once the app is installed (see Installation instructions below), you can reset the db.json file in './data/' root folder by executing the following command in the terminal.</p>
+<p>Once the app is installed (see `Installation` section below), you can reset the db.json file in './data/' root folder by executing the following command in the terminal.</p>
 
 ```sh
 node ./bin/cleanup.js
 ```
 
 <p>
-This will run the cleanup.js file located in the './bin/' folder in the root of the site.<br><br>
-The cleanup.js file simply runs a function to overwrite the db.json file in the data folder with the original values set in the db-source.json file.
-<br><br>
-This function can then be called potentially in your hosting platform via a scheduled task using the same command method as stated above.<p>
+This will run the cleanup.js file located in the './bin/' folder in the root of the site.
 
+![Run Command](./imgs-readme/terminal1.png)
+
+The cleanup.js file simply runs a function to overwrite the db.json file in the data folder with the original source values set in the db-source.json file.
+
+![Files](./imgs-readme/db-files.png)
+
+*db-source.json file*
+![File source](./imgs-readme/db-file.png)
+
+The script (cleanup.js) can then be called potentially in your hosting platform via a scheduled task using the same command method as stated above.</p>
+
+<br>
 <p><i>
 <b>NOTE:</b> After testing the script in Heroku, although the script executes successfully, the db.json does not update to the original values set in the db-source.json file.
-<br>
+<br><br>
 However, I do have another tested and working solution I have managed to establish after many hours of research, link below.
 
-[How to schedule when a Dyno should restart in Heroku for your App](http://)
+[Adding Link soon, just finishing it off!](#)
 </i></p>
 <br>
 
