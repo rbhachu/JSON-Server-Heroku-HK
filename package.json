@@ -4,8 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "cleanup": "node cleanup.js"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
