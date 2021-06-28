@@ -19,7 +19,7 @@
 
 
 ## Usage
-<p>Once the app is installed (see `Installation` section below), you can reset the db.json file in './data/' root folder by executing the following command in the terminal.</p>
+<p>Once the app is installed (see `Installation` section below), you can reset the db.json file in './data/' root folder by executing the following command in the terminal;</p>
 
 ```sh
 node ./bin/cleanup.js
