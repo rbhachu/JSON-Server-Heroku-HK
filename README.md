@@ -42,10 +42,9 @@ The script (cleanup.js) can then be called potentially in your hosting platform 
 <br>
 <p><i>
 <b>NOTE:</b> After testing the script in Heroku, although the script executes successfully, the db.json does not update to the original values set in the db-source.json file.
-<br><br>
-However, I do have another tested and working solution I have managed to establish after many hours of research, link below.
+<br>
 
-[Article Link](https://rbhachu.hashnode.dev/use-a-free-scheduler-to-restart-your-app-dynos-in-heroku)
+**However, I do have another tested and working solution I have managed to establish, which will restart the App (resetting the JSON file to its initial state). More details [here](https://rbhachu.hashnode.dev/use-a-free-scheduler-to-restart-your-app-dynos-in-heroku)**
 </i></p>
 <br>
 
