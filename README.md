@@ -45,7 +45,7 @@ The script (cleanup.js) can then be called potentially in your hosting platform 
 <br><br>
 However, I do have another tested and working solution I have managed to establish after many hours of research, link below.
 
-[Adding Link soon, just finishing it off!](#)
+[Article Link](https://rbhachu.hashnode.dev/use-a-free-scheduler-to-restart-your-app-dynos-in-heroku)
 </i></p>
 <br>
 
